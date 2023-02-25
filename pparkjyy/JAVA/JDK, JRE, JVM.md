@@ -101,6 +101,7 @@
 #### 동작 방식
 
 ![image](https://user-images.githubusercontent.com/92436863/221358936-9ff16e05-b73a-4ccb-840c-ac1ccfb7a592.png)
+
 Mark and Sweep (optionally Compact)
 
 - Mark
