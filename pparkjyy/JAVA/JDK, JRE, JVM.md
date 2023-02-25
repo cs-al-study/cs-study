@@ -126,10 +126,11 @@ Mark and Sweep (optionally Compact)
     - 영 제너레이션에서 특정 age가 넘은 참조 메모리들이 이동하는 공간
     - 이 공간이 가득차면, mager GC(올드제너레이션에서 mark and sweep)가 일어난다.
 
-1. 객체가 힙메모리에 할당 되면 우선 에덴에 할당. 에덴 영역이 가득 찬다면, 마이너 GC(에덴 영역에서의 mark and sweep)가 일어남. 여기에서 reachable하여 살아남은 객체는 servivor 영역으로 이동
-2. 살아남은 객체는 age 증가
-3. 또 다음 마이너 gc가 일어나면, 새로운 reachable 객체들은 서바이버 영역으로 이동하고, 기존 서바이버는 age가 1 증가
-4. 이 과정이 반복되어 age가 일정 임계점을 돌파하면, old generation 영역으로 이동(promotion)한다.
+
+    1. 객체가 힙메모리에 할당 되면 우선 에덴에 할당. 에덴 영역이 가득 찬다면, 마이너 GC(에덴 영역에서의 mark and sweep)가 일어남. 여기에서 reachable하여 살아남은 객체는 servivor 영역으로 이동
+    2. 살아남은 객체는 age 증가
+    3. 또 다음 마이너 gc가 일어나면, 새로운 reachable 객체들은 서바이버 영역으로 이동하고, 기존 서바이버는 age가 1 증가
+    4. 이 과정이 반복되어 age가 일정 임계점을 돌파하면, old generation 영역으로 이동(promotion)한다.
 
 - 영 제너레이션 올드 제너레이션 나눈 이유
     - 대부분의 객체는 금방 접근 불가능한 상태가 된다.
