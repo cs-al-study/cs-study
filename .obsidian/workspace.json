@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "yelm-212/JAVA/JDK, JRE, JVM.md",
+                "file": "pparkjyy/JAVA/객체지향.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "yelm-212/JAVA/JDK, JRE, JVM.md",
+                "file": "pparkjyy/JAVA/객체지향.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "yelm-212/JAVA/JDK, JRE, JVM.md",
+                "file": "pparkjyy/JAVA/객체지향.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "yelm-212/JAVA/JDK, JRE, JVM.md"
+                "file": "pparkjyy/JAVA/객체지향.md"
               }
             }
           }
@@ -151,11 +151,12 @@
   },
   "active": "441aa63e87c685b2",
   "lastOpenFiles": [
+    "pparkjyy/JAVA/JDK, JRE, JVM.md",
+    "yelm-212/JAVA/JDK, JRE, JVM.md",
     "yelm-212/photos/Pasted image 20230227214942.png",
     "yelm-212/photos/Pasted image 20230227171317.png",
     "yelm-212/photos/Pasted image 20230227170644.png",
     "yelm-212/photos/Pasted image 20230226224138.png",
-    "yelm-212/JAVA/JDK, JRE, JVM.md",
     "yelm-212/JAVA/객체지향-정리.md",
     "Pasted image 20230226224138.md",
     "yelm-212/photos/Pasted image 20230227173019.png",
