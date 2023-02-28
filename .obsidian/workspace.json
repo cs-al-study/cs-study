@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "83477e1776798c80",
+        "id": "3ee23df16a2e910a",
         "type": "tabs",
         "children": [
           {
-            "id": "441aa63e87c685b2",
+            "id": "db4946a98ee0487d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pparkjyy/JAVA/객체지향.md",
+                "file": "yelm-212/JAVA/JDK, JRE, JVM.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pparkjyy/JAVA/객체지향.md",
+                "file": "yelm-212/JAVA/JDK, JRE, JVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pparkjyy/JAVA/객체지향.md",
+                "file": "yelm-212/JAVA/JDK, JRE, JVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pparkjyy/JAVA/객체지향.md"
+                "file": "yelm-212/JAVA/JDK, JRE, JVM.md"
               }
             }
           }
@@ -149,21 +149,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "441aa63e87c685b2",
+  "active": "db4946a98ee0487d",
   "lastOpenFiles": [
-    "pparkjyy/JAVA/JDK, JRE, JVM.md",
+    "yelm-212/JAVA/JAVA 기초-1.md",
     "yelm-212/JAVA/JDK, JRE, JVM.md",
-    "yelm-212/photos/Pasted image 20230227214942.png",
-    "yelm-212/photos/Pasted image 20230227171317.png",
-    "yelm-212/photos/Pasted image 20230227170644.png",
+    "().md",
+    "yelm-212/JAVA/photos/Pasted image 20230227170644.png",
+    "pparkjyy/DB/DB.md",
+    "pparkjyy/JAVA/객체지향.md",
+    "pparkjyy/JAVA/JDK, JRE, JVM.md",
+    "yelm-212/JAVA/photos/Pasted image 20230227214942.png",
+    "yelm-212/JAVA/photos/Pasted image 20230227171317.png",
     "yelm-212/photos/Pasted image 20230226224138.png",
     "yelm-212/JAVA/객체지향-정리.md",
     "Pasted image 20230226224138.md",
-    "yelm-212/photos/Pasted image 20230227173019.png",
-    "yelm-212/photos/Pasted image 20230227171721.png",
-    "yelm-212/photos/Pasted image 20230227171325.png",
-    "yelm-212/photos/Pasted image 20230227170822.png",
+    "yelm-212/JAVA/photos/Pasted image 20230227173019.png",
+    "yelm-212/JAVA/photos/Pasted image 20230227171721.png",
+    "yelm-212/JAVA/photos/Pasted image 20230227171325.png",
+    "yelm-212/JAVA/photos/Pasted image 20230227170822.png",
     "Pasted image 20230226224138.png.md",
-    "yelm-212/photos"
+    "yelm-212/JAVA/photos"
   ]
 }

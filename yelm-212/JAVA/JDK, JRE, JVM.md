@@ -1,6 +1,6 @@
 #  JDK, JRE, JVM의 정의
 
-![[Pasted image 20230227214942.png]]
+![Pasted image 20230227214942.png](https://media.geeksforgeeks.org/wp-content/uploads/20210218150010/JDK.png)
 [](https://media.geeksforgeeks.org/wp-content/uploads/20210218150010/JDK.png)
 1. **JDK** (Java Development Kit)
 	- JDK는 Java 프로그램을 개발 및 실행하기 위한 환경을 제공하는 일종의 키트와 같다.
@@ -8,7 +8,7 @@
 2. **JRE** (Java Runtime Environment)
 	- 자바를 컴퓨터에서 실행하는 환경만을 제공
 	- JRE는 end-user에게만 사용된다.
-3.  [**JVM** (**Java Virtual Machine)**]()
+3. **JVM** (**Java Virtual Machine)**
 	- JRE과 JDK 모두에 내장되어 있다.
 	- 자바 프로그램을 한 줄마다 실행하는 기능을 한다 -> 인터프리터 
 	- UI toolkit과 통합 라이브러리, 언어와 유틸리티 라이브러리, 기타 라이브러리, JVM, 배포 기술 등을 구성 요소로 가진다.
@@ -74,16 +74,16 @@ Java는 컴파일 언어의 특성과 컴파일러 언어의 특성을 모두 �
 - 사용하지 않는 메모리를 자동으로 회수해준다.
 - Heap 메모리 영역에 생성된 객체들 중 참조죄지 않은 객체를 탐색 후 제거하는 역할
 1. 마킹 : 사용중인 메모리와 사용중이지 않은 메모리를 구분하여 마킹한다.
-![[Pasted image 20230227170822.png]]
+![Pasted image 20230227170822.png](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide3.png)
 - 참조되는 객체들은 파란색으로, 참조되지 않는 객체들은 주황색으로 표시되었다.
 2. 일반 삭제 : 참조되지 않은 객체를 제거하고 참조된 객체와 포인터를 여유 공간에 남긴다.
-![[Pasted image 20230227171325.png]]
+![Pasted image 20230227171325.png](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide1b.png)
 3. 압축 삭제 : 성능을 더욱 향상시키기 위해 나머지 참조 객체를 압축할 수 있다.
-![[Pasted image 20230227171721.png]]
+![Pasted image 20230227171721.png](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide4.png)
 - 참조된 객체를 빈 공간의 가장 앞으로 이동시킴으로써, 새로운 메모리 할당을 훨씬 쉽고 빠르게 만든다.
-- 
+
 ### Generational garbage collection
-![[Pasted image 20230227173019.png]]
+![Pasted image 20230227173019.png](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide5.png)
 객체의 수명에 따라 힙을 여러 개의 세대로 나누어서 사용한다. 
 - 새로운 객체는 Young Generation에 할당되고, 일정 주기마다 Young Generation을 스캔하여 사용되지 않는 객체를 식별한다. (minor garbage collection) 
 - 객체가 여러 번 스캔에 걸쳐 살아남으면 오래된 세대(old generation)로 이동한다.
