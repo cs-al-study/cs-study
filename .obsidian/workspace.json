@@ -13,11 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "yelm-212/JAVA/JAVA 기초-1.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "c7911200e3202e0c"
+          },
+          {
+            "id": "8ec99c5ecc617e3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "yelm-212/JAVA/JDK, JRE, JVM.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
+          }
+        ]
+      },
+      {
+        "id": "74c426dae5997c7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c058bf4bb67fff38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "yelm-212/JAVA/JAVA 기초-1.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "c7911200e3202e0c"
           }
         ]
       }
@@ -69,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "84427b42fecb485c",
@@ -85,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "yelm-212/JAVA/JDK, JRE, JVM.md",
+                "file": "yelm-212/JAVA/JAVA 기초-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "yelm-212/JAVA/JDK, JRE, JVM.md",
+                "file": "yelm-212/JAVA/JAVA 기초-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "yelm-212/JAVA/JDK, JRE, JVM.md"
+                "file": "yelm-212/JAVA/JAVA 기초-1.md"
               }
             }
           }
@@ -149,24 +181,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "db4946a98ee0487d",
+  "active": "c058bf4bb67fff38",
   "lastOpenFiles": [
     "yelm-212/JAVA/JAVA 기초-1.md",
+    "pparkjyy/JAVA/JAVA기초.md",
+    "yelm-212/JAVA/객체지향-정리.md",
     "yelm-212/JAVA/JDK, JRE, JVM.md",
-    "().md",
-    "yelm-212/JAVA/photos/Pasted image 20230227170644.png",
-    "pparkjyy/DB/DB.md",
     "pparkjyy/JAVA/객체지향.md",
     "pparkjyy/JAVA/JDK, JRE, JVM.md",
-    "yelm-212/JAVA/photos/Pasted image 20230227214942.png",
-    "yelm-212/JAVA/photos/Pasted image 20230227171317.png",
-    "yelm-212/photos/Pasted image 20230226224138.png",
-    "yelm-212/JAVA/객체지향-정리.md",
-    "Pasted image 20230226224138.md",
-    "yelm-212/JAVA/photos/Pasted image 20230227173019.png",
-    "yelm-212/JAVA/photos/Pasted image 20230227171721.png",
-    "yelm-212/JAVA/photos/Pasted image 20230227171325.png",
     "yelm-212/JAVA/photos/Pasted image 20230227170822.png",
+    "yelm-212/JAVA/photos/Pasted image 20230227170644.png",
+    "yelm-212/JAVA/photos/Pasted image 20230227171317.png",
+    "yelm-212/JAVA/photos/Pasted image 20230227171325.png",
+    "yelm-212/JAVA/photos/Pasted image 20230227171721.png",
+    "yelm-212/JAVA/photos/Pasted image 20230227173019.png",
+    "yelm-212/JAVA/photos/Pasted image 20230227214942.png",
+    "().md",
+    "pparkjyy/DB/DB.md",
+    "yelm-212/photos/Pasted image 20230226224138.png",
+    "Pasted image 20230226224138.md",
     "Pasted image 20230226224138.png.md",
     "yelm-212/JAVA/photos"
   ]
