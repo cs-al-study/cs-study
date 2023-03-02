@@ -94,3 +94,13 @@
 - Primitive type은 call by value, Reference type은 call by reference 로 동작
 
 ## Wrapper Class
+- 8가지의 기본타입을 객체로 표현한 것
+
+![image](https://user-images.githubusercontent.com/92436863/222370798-8bf707f1-45e0-43d6-8da9-04f9217bae79.png)
+
+
+- 사용이유
+    - 래퍼 클래스는 기본 데이터 타입을 Object로 변환할 수 있다. 메소드에 전달된 인수를 수정하려는 경우 오브젝트가 필요하다.
+    - java.util 패키지의 클래스는 객체만 처리하므로 Wrapper class는 이 경우에도 도움이 된다.
+    - ArrayList 등과 같은 Collection 프레임 워크의 데이터 구조는 기본 타입이 아닌 객체만 저장하게 되고 Wrapper class를 사용하여 자동 박싱과 언박싱이 일어나다.
+    - 멀티스레딩에서 동기화를 지원하려면 객체가 필요하다.
