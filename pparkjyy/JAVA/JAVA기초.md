@@ -104,3 +104,64 @@
     - java.util 패키지의 클래스는 객체만 처리하므로 Wrapper class는 이 경우에도 도움이 된다.
     - ArrayList 등과 같은 Collection 프레임 워크의 데이터 구조는 기본 타입이 아닌 객체만 저장하게 되고 Wrapper class를 사용하여 자동 박싱과 언박싱이 일어나다.
     - 멀티스레딩에서 동기화를 지원하려면 객체가 필요하다.
+
+## interface vs abstract class
+
+### abstract class (추상 클래스)
+- 부모 클래스에서 필요한 대부분의 기능을 구현하고, 자식 클래스가 재정의할 부분은 추상 메소드로 선언하는 것
+    - 상속 + 다형성을 통해 기능을 확장하는것
+    - 클래스와 메소드에 abstract 제어자를 붙여준다
+- 다중 extends 불가능
+- 필드값과 일반 메소드를 가질 수 있다.
+
+### interface (인터페이스)
+- 인터페이스를 implements하는 여러 클래스들의 메소드 구현을 강제하기 위해 사용한다.
+- 다중 implements가 가능하다.
+- java 8 부터 default 메소드로 기본 구현가능
+
+
+
+![image](https://user-images.githubusercontent.com/92436863/223038084-9b7bd02c-7348-41f1-9166-9bb9659fbec5.png)
+
+## Error와 Exception
+
+- Error
+    - 시스펨에 비정상적인 상황이 발생했을 경우 ex) OutofMemoryError, StackOverflowError
+    - 개발자가 예측하기도 쉽지 않고 처리할 수 있는 방법도 없다.
+
+- Exception
+    - 개발자의 실수로 예기치 않은 상황이 발생했을 때 ex) 배열범위벗어남, 값 null이 참조변수 참조, 존재하지 않는 파일 이름 ..
+    - 체크 예외(Checked Exception), 언체크 예외(Unchecked Exeption)로 나눌 수 있음
+
+## Checked Exception vs UnChecked Exception
+
+- Checked Exception
+    - 실행 전 발생할 수 있는 에러 -> 컴파일 시점에서 발생
+    - 반드시 예외처리를 해야함
+    - ex) IOException, SQLException .. 
+
+- Unchecked Exception
+    - 실행 중 발생할 수 있는 에러 -> 런타임 시점에서 발생
+    - RuntimeException을 상속
+    - ex) NullPointerException, ClassCastException ..
+
+## static
+
+- 일반적인 변수는 jvm 힙 영역에 저장되는 반면, static 변수는 메소드 영역에 저장된다.
+- 메소드 영역은 가비지 컬렉터가 동작하지 않으므로, 프로그램 종료시까지 할당된 채로 존재한다.
+    - 모든 인스턴스가 같은 값을 유지해야할 때 사용
+    - 유틸 클래스처럼 인스턴스를 생성할 필요가 없는 클래스에서 사용. (할당없이 빠른 호출)
+
+## final
+
+- 객체를 단 한번만 할당하는 제어자. 두번 할당하면 컴파일 오류 발생
+- 변수, 메소드, 클래스에 적용할 수 있음
+    - 변수는 상수처럼 고정하여 사용
+    - 메소드는 Overriding 불가
+    - 클래스는 상속 불가
+
+## generic
+
+- 객체 생성 시점에 타입을 결정하여, 유연한 설계를 가능하게 하는 기능
+- 컴파일시 타입을 미리 체크한다
+- ex) Collection 라이브러리
