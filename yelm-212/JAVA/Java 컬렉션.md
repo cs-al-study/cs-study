@@ -1,0 +1,2 @@
+-   `hashcode()` &`equals()`
+-   Thread Safe & Syncronized

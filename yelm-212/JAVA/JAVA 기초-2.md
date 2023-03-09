@@ -1,5 +1,5 @@
 - interface vs abstract class 
-![](https://media.geeksforgeeks.org/wp-content/uploads/Abstract-Class-vs-Interface.png)
+- ![](https://media.geeksforgeeks.org/wp-content/uploads/Abstract-Class-vs-Interface.png)
 
 | 추상 클래스 | 인터페이스 |
 | --- | --- |
