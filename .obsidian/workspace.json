@@ -4,40 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "866dd2ae832c8495",
+        "id": "eef76588a09760ef",
         "type": "tabs",
         "children": [
           {
-            "id": "1ae4428707aa93c6",
+            "id": "29f36d42b7ed7d9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "yelm-212/JAVA/Java 컬렉션.md",
+                "file": "yelm-212/JAVA/JAVA 기초-1.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "984f28dd831f45f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "yelm-212/JAVA/String, List, Map.md",
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "83a1a6e32db4e912"
+            "group": "58b124bf923d0738"
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "b5b8dc0932ace1b5",
+        "id": "4a73dca2c678e89c",
         "type": "tabs",
         "children": [
           {
-            "id": "289f4e02359af126",
+            "id": "5d8536c6e0057858",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "yelm-212/JAVA/Java 컬렉션.md",
+                "file": "yelm-212/JAVA/String, List, Map.md",
                 "mode": "preview",
                 "source": true
               }
             },
-            "group": "83a1a6e32db4e912"
+            "group": "58b124bf923d0738"
           }
         ]
       }
@@ -89,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "84427b42fecb485c",
@@ -105,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "yelm-212/JAVA/Java 컬렉션.md",
+                "file": "yelm-212/JAVA/String, List, Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "yelm-212/JAVA/Java 컬렉션.md",
+                "file": "yelm-212/JAVA/String, List, Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "yelm-212/JAVA/Java 컬렉션.md"
+                "file": "yelm-212/JAVA/String, List, Map.md"
               }
             }
           }
@@ -153,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,17 +182,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1ae4428707aa93c6",
+  "active": "984f28dd831f45f2",
   "lastOpenFiles": [
-    "pparkjyy/JAVA/JAVA컬렉션.md",
-    "yelm-212/JAVA/JAVA 기초-3.md",
-    "yelm-212/JAVA/Java 컬렉션.md",
     "yelm-212/JAVA/JAVA 기초-2.md",
-    "yelm-212/JAVA/객체지향-정리.md",
-    "yelm-212/JAVA/JDK, JRE, JVM.md",
     "yelm-212/JAVA/JAVA 기초-1.md",
-    "pparkjyy/JAVA/JAVA기초.md",
+    "yelm-212/JAVA/JAVA 기초-3.md",
+    "yelm-212/JAVA/객체지향-정리.md",
     "README.md",
+    "yelm-212/JAVA/String, List, Map.md",
+    "yelm-212/JAVA/JDK, JRE, JVM.md",
+    "yelm-212/JAVA/Java 컬렉션.md",
+    "pparkjyy/JAVA/JAVA컬렉션.md",
+    "pparkjyy/JAVA/JAVA기초.md",
     "pparkjyy/JAVA/객체지향.md",
     "pparkjyy/JAVA/JDK, JRE, JVM.md",
     "yelm-212/JAVA/photos/Pasted image 20230227170822.png",
