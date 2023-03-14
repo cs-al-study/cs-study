@@ -1,1 +1,20 @@
-{}
+{
+  "obsidian-git:commit-specified-message": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "obsidian-git:push2": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ]
+}
