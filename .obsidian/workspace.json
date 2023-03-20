@@ -4,39 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "c8a2bdbb7d549f05",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "297174c313edba0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0c6922383bfa67b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "yelm-212/자료구조-알고리즘/선형 자료구조.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            },
-            "group": "7b34ce778dd5d882"
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "6017b43fe534554e",
         "type": "tabs",
         "children": [
@@ -46,13 +13,45 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "yelm-212/자료구조-알고리즘/선형 자료구조.md",
+                "file": "README.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
+            }
+          },
+          {
+            "id": "cb91a9b630e6bb69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "yelm-212/자료구조-알고리즘/비선형 자료구조.md",
+                "mode": "source",
+                "source": true
+              }
             },
-            "group": "7b34ce778dd5d882"
+            "group": "911db27760d90bc6"
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "df2e0bc3bb3b9d89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ba9d961c8186c27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "yelm-212/자료구조-알고리즘/비선형 자료구조.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "911db27760d90bc6"
           }
         ]
       }
@@ -104,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "84427b42fecb485c",
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "yelm-212/자료구조-알고리즘/선형 자료구조.md",
+                "file": "yelm-212/자료구조-알고리즘/비선형 자료구조.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "yelm-212/자료구조-알고리즘/선형 자료구조.md",
+                "file": "yelm-212/자료구조-알고리즘/비선형 자료구조.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "yelm-212/자료구조-알고리즘/선형 자료구조.md"
+                "file": "yelm-212/자료구조-알고리즘/비선형 자료구조.md"
               }
             }
           }
@@ -168,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,23 +184,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "23f5410c571d0507",
+  "active": "cb91a9b630e6bb69",
   "lastOpenFiles": [
-    "yelm-212/JAVA/String, List, Map.md",
-    "yelm-212/자료구조-알고리즘/선형 자료구조.md",
-    "yelm-212/JAVA/객체지향-정리.md",
+    "pparkjyy/Data Structure/선형 자료구조.md",
+    "pparkjyy/Data Structure",
     "README.md",
+    "yelm-212/자료구조-알고리즘/비선형 자료구조.md",
+    "pparkjyy/JAVA/객체지향.md",
+    "yelm-212/자료구조-알고리즘/선형 자료구조.md",
+    "yelm-212/JAVA/String, List, Map.md",
+    "pparkjyy/JAVA/JAVA기초.md",
+    "pparkjyy/DB/DB.md",
+    "yelm-212/JAVA/객체지향-정리.md",
     "yelm-212/JAVA/JDK, JRE, JVM.md",
     "yelm-212/JAVA/JAVA 기초-3.md",
     "yelm-212/JAVA/JAVA 기초-2.md",
     "yelm-212/자료구조-알고리즘",
     "pparkjyy/JAVA/JAVA컬렉션.md",
     "pparkjyy/JAVA/JDK, JRE, JVM.md",
-    "pparkjyy/DB/DB.md",
-    "pparkjyy/JAVA/JAVA기초.md",
     "yelm-212/JAVA/JAVA 기초-1.md",
     "yelm-212/JAVA/Java 컬렉션.md",
-    "pparkjyy/JAVA/객체지향.md",
     "yelm-212/JAVA/photos/Pasted image 20230227170822.png",
     "yelm-212/JAVA/photos/Pasted image 20230227170644.png",
     "yelm-212/JAVA/photos/Pasted image 20230227171317.png",
