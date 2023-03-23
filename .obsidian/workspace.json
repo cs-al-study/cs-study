@@ -4,39 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "6017b43fe534554e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "23f5410c571d0507",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "cb91a9b630e6bb69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "yelm-212/자료구조-알고리즘/비선형 자료구조.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "911db27760d90bc6"
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "df2e0bc3bb3b9d89",
         "type": "tabs",
         "children": [
@@ -46,12 +13,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "yelm-212/자료구조-알고리즘/비선형 자료구조.md",
-                "mode": "preview",
+                "file": "yelm-212/자료구조-알고리즘/비선형 자료구조(2).md",
+                "mode": "source",
                 "source": true
               }
-            },
-            "group": "911db27760d90bc6"
+            }
+          },
+          {
+            "id": "cf7ede17244b8da4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ]
       }
@@ -103,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "84427b42fecb485c",
@@ -120,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "yelm-212/자료구조-알고리즘/비선형 자료구조.md",
+                "file": "yelm-212/자료구조-알고리즘/비선형 자료구조(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "yelm-212/자료구조-알고리즘/비선형 자료구조.md",
+                "file": "yelm-212/자료구조-알고리즘/비선형 자료구조(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "yelm-212/자료구조-알고리즘/비선형 자료구조.md"
+                "file": "yelm-212/자료구조-알고리즘/비선형 자료구조(2).md"
               }
             }
           }
@@ -184,26 +161,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cb91a9b630e6bb69",
+  "active": "0ba9d961c8186c27",
   "lastOpenFiles": [
-    "pparkjyy/Data Structure/선형 자료구조.md",
-    "pparkjyy/Data Structure",
-    "README.md",
-    "yelm-212/자료구조-알고리즘/비선형 자료구조.md",
-    "pparkjyy/JAVA/객체지향.md",
     "yelm-212/자료구조-알고리즘/선형 자료구조.md",
-    "yelm-212/JAVA/String, List, Map.md",
-    "pparkjyy/JAVA/JAVA기초.md",
-    "pparkjyy/DB/DB.md",
     "yelm-212/JAVA/객체지향-정리.md",
+    "yelm-212/JAVA/String, List, Map.md",
     "yelm-212/JAVA/JDK, JRE, JVM.md",
+    "yelm-212/JAVA/Java 컬렉션.md",
     "yelm-212/JAVA/JAVA 기초-3.md",
     "yelm-212/JAVA/JAVA 기초-2.md",
+    "yelm-212/JAVA/JAVA 기초-1.md",
+    "yelm-212/자료구조-알고리즘/비선형 자료구조.md",
+    "yelm-212/자료구조-알고리즘/비선형 자료구조(2).md",
+    "README.md",
+    "pparkjyy/Data Structure/비선형 자료구조.md",
+    "pparkjyy/Data Structure/선형 자료구조.md",
+    "pparkjyy/Data Structure",
+    "pparkjyy/JAVA/객체지향.md",
+    "pparkjyy/JAVA/JAVA기초.md",
+    "pparkjyy/DB/DB.md",
     "yelm-212/자료구조-알고리즘",
     "pparkjyy/JAVA/JAVA컬렉션.md",
     "pparkjyy/JAVA/JDK, JRE, JVM.md",
-    "yelm-212/JAVA/JAVA 기초-1.md",
-    "yelm-212/JAVA/Java 컬렉션.md",
     "yelm-212/JAVA/photos/Pasted image 20230227170822.png",
     "yelm-212/JAVA/photos/Pasted image 20230227170644.png",
     "yelm-212/JAVA/photos/Pasted image 20230227171317.png",
