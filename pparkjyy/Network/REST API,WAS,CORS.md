@@ -1,7 +1,7 @@
 ## RESTful API
 
-API(Application Programming Interface)는 일종의 소프트웨어 인터페이스이며 애플리캐이션 서로 간에 연결하여 통신할 수 있는 방법을 정의하는 기능의 집합이다. 
-RESTful api 는 REST(Representational State Transfer) 디자인 원칙을 준수한 API이다.
+API(Application Programming Interface)는 일종의 소프트웨어 인터페이스이며 애플리케이션 서로 간에 연결하여 통신할 수 있는 방법을 정의하는 기능의 집합 
+RESTful api 는 REST(Representational State Transfer) 디자인 원칙을 준수한 API이다
 
  
 ### REST
@@ -9,7 +9,7 @@ RESTful api 는 REST(Representational State Transfer) 디자인 원칙을 준수
 
 **즉, HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고, HTTP Method(POST, GET, PUT, DELETE)를 통해 해당 자원(URI)에 대한 CRUD Operation을 적용하는 것을 의미한다.**
 
-+) CRUD Operation 은 대부분의 컴퓨터 소프트웨어가 가지는 기본적인 데이터 처리 기능인 Create(생성), Read(읽기), Update(수정), Delete(삭제)를 묶어서 일컫는 말이다.
++) CRUD Operation 은 대부분의 컴퓨터 소프트웨어가 가지는 기본적인 데이터 처리 기능인 Create(생성), Read(읽기), Update(수정), Delete(삭제)를 묶어서 일컫는 말
 
 - 자원(Resource) : HTTP URI (Client는 URI를 이용해서 자원을 지정하고 해당 자원의 상태(정보)에 대한 조작을 Server에 요청한다.)
 - 자원에 대한 행위(Verb) : HTTP Method 
@@ -48,6 +48,7 @@ JSON을 이용한 메시지 포멧을 이용하여 직관적으로 이해할 수
 
 +) URL은 Uniform Resource Locator로 인터넷 상 자원의 위치( 어떤 파일의 위치)를 의미한다. 반면에 URI는 Uniform Resource Identifier로 인터넷 상의 자원을 식별하기 위한 문자열의 구성으로, URI는 URL을 포함하게 된다. 그러므로 URI가 보다 포괄적인 범위라고 할 수 있다.
 
+<br>
 
 ## Web Server 과 WAS
 
@@ -73,7 +74,7 @@ WAS가 동정, 정정 데이터 모두를 처리할 수 있는데 Web Server가 
 - 여러 개의 서버를 사용하는 대용량 웹 애플리케이션의 경우 웹 서버와 WAS를 분리하여 무중단 운영을 위한 장애 극복에 쉽게 대응할 수 있다.
   - Load Balancing
   - fail over, fail back, Health check
-- 다른 종류의 WAS로 서비스 가능
+- 다른 종류의 WAS로 서비스 가능ㄴ
   - 예를 들어 하나의 서버에서 PHP와 JAVA를 함께 사용할 수 있다.
 
 즉, 클라이언트의 동적인 요청(Request)을 웹 서버가 WAS에 보내고, WAS가 처리한 결과를 웹서버가 클라이언트에게 전달(응답, Response)한다. 웹 서버와 WAS는 소켓을 통해 통신한다.
@@ -91,8 +92,8 @@ SOP(Same Origin Policy) : 다른 출처의 리소스를 사용하는 것에 제�
 
 프로토콜+호스트+포트 가 동일하면 서로 같은 출처라 한다.
 
-### 등장 배경
-예전에 웹사이트를 만들때는 대부분 하나의 서버에서 브라우저의 모든 요청을 처리했지만 점점 웹 서비스가 커지면서 브라우저가 다른 출처(Origin)의 자원을 요청할 일이 많아졌다. (예를 들어 지도 API를 사용하여 지도 기능을 추가하는 경우) 하지만 SOP와 반대로 아무런 제약도 존재하지 않는다면 보안상 매우 취약하다. 그래서 다른 출처의 리소스가 필요한 경우,  SOP를 우회하기 위한 방법으로 CORS 가 사용되었다.
+### 배경
+ 웹사이트를 만들때는 대부분 하나의 서버에서 브라우저의 모든 요청을 처리했지만 점점 웹 서비스가 커지면서 브라우저가 다른 출처(Origin)의 자원을 요청할 일이 많아졌다. (예를 들어 지도 API를 사용하여 지도 기능을 추가하는 경우) 하지만 SOP와 반대로 아무런 제약도 존재하지 않는다면 보안상 매우 취약하다. 그래서 다른 출처의 리소스가 필요한 경우,  SOP를 우회하기 위한 방법으로 CORS 가 사용되었다.
 
 즉, CORS란 추가 HTTP 헤더를 사용하여 한 출처에서 실행 중인 웹 애플리케이션이 다른 출처의 선택한 자원에 접근 할 수 있는 권한을 부여하도록 브라우저에 알려주는 정책이다.
 
@@ -105,17 +106,4 @@ Options 메서드로 예비 요청을 보내고 본 요청을 보낸다. 예비�
 예비 요청이 없이 본 요청에서 origin 검사를 한다. 요청 메소드는 GET, HEAD, POST 만 사용 가능하고 Content-type에서 Json을 사용하지 못하고 헤더에는 JWT를 포함할 수 없기 때문에 잘 사용되지 않는다.
 
 +) Preflight 가 필요한 이유는 cors 에러를 확인하기 전에 DB와 같은 작업 하는 것을 방지 하기 위해
-
-- Credentialed Request (인증 정보 포함 요청)
-인증 관련 헤더를 포함할 때 사용하는 요청
-
-기본적으로 브라우저가 제공하는 비동기 리소스 요청 API인 XMLHttpRequest 객체나 fetch API는 별도의 옵션 없이 브라우저의 쿠키 정보나 인증과 관련된 헤더를 함부로 요청에 담지 않는다. 이때 요청에 인증과 관련된 정보를 담을 수 있게 해주는 옵션이 바로 credentials 옵션이다.
-
-옵션
-same-origin (기본값) : 같은 출처 간 요청에만 인증 정보를 담는다.
-include : 모든 요청에 인증 정보를 담는다.
-omit : 모든 요청에 인증 정보를 담지 않는다.
-
-Access-Control-Allow-Origin : * 은 안된다. 정확한 url 명시
-Access-Control-Allow-Credentials : true 롤 설정 필수
 
