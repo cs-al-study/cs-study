@@ -31,6 +31,10 @@
     - **따라서 굳이 보낼 필요없는 데이터는 Local Storage 및 Session Storage에 저장함**
 - Local Storage는 영구저장, Session Storage는 브라우저가 꺼지면 삭제됨
 
+### 장점
+- 서버에 요청할 때마다 헤더에 쿠키를 담아 서버에 전송하기 때문에 서버의 저장공간이 절약
+
+
 ### 단점
 
 - 용량이 작음 (최대 4KB)
