@@ -90,8 +90,9 @@
 - 함수 안에서 인자의 값이 변경되면, 인자로 전달된 객체의 값도 함께 변경된다.
 
 ### JAVA 에서의 Call by Value & Reference
-- 함수에 전달되는 데이터 타입에 따라 함수 호출 방식이 달라진다
-- Primitive type은 call by value, Reference type은 call by reference 로 동작
+- java는 오직 Call by Value 로만 동작한다.
+    - 이유
+    - call by reference는 원본의 주소값을 전달하므로, 원본을 변경할 수 있다. 자바에는 포인터 같은 변수의 주소값을 추철 및 저장한는 기능이 없다.
 
 ## Wrapper Class
 - 8가지의 기본타입을 객체로 표현한 것
